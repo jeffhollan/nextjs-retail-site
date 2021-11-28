@@ -1,5 +1,36 @@
-.Jeff {
-    width: 100px;
-    height: 100px;
-    background-color: #000;
+header {
+    background-color: #3850B3;
+    color: #fff;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: minmax(min-content, 200px) auto auto;
+    align-items: center;
+    height: 5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    padding-inline-start: 0;
+    flex-wrap: wrap;
+}
+
+header li {
+    margin-left: 2em;
+}
+
+header .logo {
+    grid-column: span 2;
+}
+
+header nav {
+    justify-self: end;
 }
