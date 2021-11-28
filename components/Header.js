@@ -2,9 +2,9 @@ import styles from './Header.module.scss'
 
 export default function Header({ children }) {
     return (
-        <header>
-            <div className="container">
-                <div className={styles.logo}>
+        <header className={styles.header}>
+            <div className={`container ${styles.header__container}`}>
+                <div className={styles.header__logo}>
                     <i className="fa-solid fa-leaf"></i>&nbsp;&nbsp;Evergreen Plants
                 </div>
                 <nav>

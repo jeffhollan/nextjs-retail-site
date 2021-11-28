@@ -1,36 +1,36 @@
-header {
+.header {
     background-color: #3850B3;
     color: #fff;
 }
 
-header .container {
+.header__container {
     display: grid;
     grid-template-columns: minmax(min-content, 200px) auto auto;
     align-items: center;
     height: 5rem;
 }
 
-header a {
+.header a {
     text-decoration: none;
     color: #fff;
 }
 
-header ul {
+.header ul {
     list-style-type: none;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     padding-inline-start: 0;
     flex-wrap: wrap;
 }
 
-header li {
+.header li {
     margin-left: 2em;
 }
 
-header .logo {
+.header__logo {
     grid-column: span 2;
 }
 
-header nav {
+.header nav {
     justify-self: end;
 }
